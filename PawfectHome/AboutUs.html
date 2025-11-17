@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AboutUs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js" defer></script>
+        <link rel="stylesheet" href="AboutUs.css">
+    </head>
+    <body>
+    <!-- Header -->
+    <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="Img/PALogo.png" alt="PetAdoptionLogo" width="70" height="70" class="rounded-circle me-2">
+                <div class="org-name">
+                    <h1>Pawfect Home</h1>
+                    <p>Pet Adoption Center</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FindPets.html">Search Pets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="DonatePA.html">Donate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                </ul>
+                <div class="d-flex ms-lg-3">
+                    <button class="btn login-btn me-2" onclick="location.href='LoginPA.html'">Login</button>
+                    <button class="btn signup-btn" onclick="location.href='LoginPA.html'">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!-- Abou Us Slider -->
+     <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1" class=""></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2" class=""></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>About Us</h1>
+                            <p>
+                                Pet Adoption Foundation is a non-profit organization dedicated to rescuing, 
+                                caring for, and finding loving homes for abandoned and homeless animals.
+                                We believe every pet deserves a second chance — a chance to be loved, to feel safe, and to belong.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>About Us</h1>
+                            <p>
+                                Our team of passionate volunteers works tirelessly to provide proper care, 
+                                medical treatment, and emotional support to each animal that comes through our doors. 
+                                Through community outreach, adoption events, and education programs, we aim to inspire compassion and responsible pet ownership.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>About Us</h1>
+                            <p>
+                                When you adopt from us, 
+                                you’re not just giving an animal a home — you’re changing a life, 
+                                and finding a friend who will fill your days with unconditional love.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- แนะนำองค์กร -->
+     <section id="introduction" class="text-center py-5">
+        <div class="container">
+            <h2>Every Paw Deserves a Home</h2>
+            <p>
+                Pet Adoption Center is a dedicated non-profit organization committed to rescuing, rehabilitating, and finding loving homes for abandoned, stray, and homeless animals. 
+                Every day, countless animals are left without care or companionship. We believe that every animal deserves a second chance — a chance to be safe, healthy, and loved.
+                <br>
+                <br>
+                Since our founding, we have been driven by a deep passion for animal welfare, working tirelessly to provide food, medical care, emotional support, and shelter to animals in need. 
+                Our work goes beyond rescue; we aim to create a community where humans and animals coexist harmoniously.
+            </p>
+        </div>
+     </section>
+     <section id="mission" class="text-center py-5">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to create a society where every animal has the opportunity to live in a safe and loving home. 
+                Through adoption events, community outreach, and educational programs,
+                 we strive to inspire compassion and responsible pet ownership.
+            </p>
+        </div>
+     </section>
+     <section id="gallery" class="py-5">
+        <div class="container text-center">
+            <h2>Our Happy Little Paws !</h2>
+            <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                <img src="Img/lorikeet.jpg" alt="">
+                <img src="Img/bordercollie.jpg" alt="">
+                <img src="Img/husky.jpg" alt="">
+                <img src="Img/russianblue.jpg" alt="">
+                <img src="Img/ragdoll.jpg" alt="">
+                <img src="Img/lovebird.jpg" alt="">
+            </div>
+        </div>
+     </section>
+     <!-- Contact Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>E-mail to be contacted</label>
+                            <input type="email" placeholder="Please provide your E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Topic of inquiry</label>
+                            <input type="text" placeholder="Please provide the subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Message details</label>
+                            <textarea rows="10" cols="30" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    <button class="btn btn-outline-success">Submit</button>
+                </div>
+            </div>
+        </div>
+      </div>
+        <!-- footer  -->
+        <footer>
+        <div class="footer-content">
+            <div class="about">
+                <h3>Pet & Adoption</h3>
+                <p>
+                    Dedicated to finding loving homes for rescued little paws.<br>Every pet deserves a second chance at happiness.
+                </p>
+            </div>
+            <div class="links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="FindPets.html"></a>Search Pet</li>
+                    <li><a href="AboutUs.html"></a>About Us</li>
+                    <li><a href="#"></a>Contact</li>
+                    <li><a href="#"></a>Donate</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4>Contact Info</h4>
+                <p>0800000000</p>
+                <p>contact@petadoption</p>
+                <p>123 street, Little paws City</p>
+            </div>
+        </div>
+        <div class="container">
+                <p>Copyright &copy; Pet Adoption</p>
+            </div>
+      </footer>
+    </body>
+</html>

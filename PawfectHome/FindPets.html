@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FindPets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js" defer></script>
+        <link rel="stylesheet" href="FindPets.css">
+    </head>
+    <body>
+    <!-- Header -->
+    <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="Img/PALogo.png" alt="PetAdoptionLogo" width="70" height="70" class="rounded-circle me-2">
+                <div class="org-name">
+                    <h1>Pawfect Home</h1>
+                    <p>Pet Adoption Center</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FindPets.html">Search Pets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="DonatePA.html">Donate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                </ul>
+                <div class="d-flex ms-lg-3">
+                    <button class="btn login-btn me-2" onclick="location.href='LoginPA.html'">Login</button>
+                    <button class="btn signup-btn" onclick="location.href='LoginPA.html'">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!-- Search Bar -->
+    <form role="search" class="search-bar">
+        <input type="text" placeholder="Search. . ." aria-label="search term"/>
+        <button type="submit">🔍</button>
+    </form>
+    <!-- Categories -->
+     <section class="categories">
+        <h2>Categories</h2>
+            <div class="cards">
+                <div>
+                    <a href="CateDog.html" class="category-link">
+                        <img width="200" src="Img/dogicon.png" alt="dogicon">
+                        <p>Dog</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="CateCat.html" class="category-link">
+                        <img width="200" src="Img/caticon.png" alt="caticon">
+                        <p>Cat</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="CateBird.html" class="category-link">
+                        <img width="200" src="Img/birdicon.png" alt="birdicon">
+                        <p>Bird</p>
+                    </a>
+                </div>
+            </div>
+     </section>
+     <section class="pet-cards">
+        <div class="pet-card">
+            <img src="Img/maltese.jpg" alt="maltese">
+            <h4>Snow</h4>
+            <p>Maltese | 1 year | Female</p>
+            <p class="petinfo">Snow is a sweet and friendly dog who loves being around people.</p>
+            <button onclick="location.href='snow.html'">Learn More About Snow</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/siamese.jpg" alt="siamese">
+            <h4>Pangping</h4>
+            <p>Siamese | 1 year | Female</p>
+            <p class="petinfo">Pangping is a gentle and affectionate cat who loves cuddles and warm naps by the window. She’s calm, friendly, and ready to fill your home with love</p>
+            <button onclick="location.href='pangping.html'">Learn More About Pangping</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/cockatiel.jpg" alt="cockatiel">
+            <h4>Sun</h4>
+            <p>Cockatiel | 2 year | Male</p>
+            <p class="petinfo">Sun is a cheerful little parrot who loves to sing and greet everyone with happy chirps. He enjoys bright mornings, gentle music, and friendly company</p>
+            <button onclick="location.href='sun.html'">Learn More About Sun</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/goldenretriever.jpg" alt="goldenretriever">
+            <h4>Caramelo</h4>
+            <p>Golden Retriever | 2 year | Male</p>
+            <p class="petinfo">Caramelo is calm, patient, and endlessly loving. He enjoys peaceful walks, gentle pets, and lying by your feet while you read or relax. He’s truly the definition of a best friend</p>
+            <button onclick="location.href='caramelo.html'">Learn More About Caramelo</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/khaomanee.jpg" alt="khaomanee">
+            <h4>Srinuan</h4>
+            <p>Khao Manee | 3 year | Female</p>
+            <p class="petinfo">Srinuan is a sweet and gentle cat who loves curling up in cozy corners. She enjoys quiet afternoons and soft cuddles, and she’ll happily purr by your side all day long</p>
+            <button onclick="location.href='srinuan.html'">Learn More About Srinuan</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/monkparakeet.jpg" alt="monkparakeet">
+            <h4>Matcha</h4>
+            <p>Monk Parakeet | 4 year | Male</p>
+            <p class="petinfo">Matcha is a cheerful parrot who loves to sing and whistle all day. He brightens every room with his happy energy and colorful feathers</p>
+            <button onclick="location.href='matcha.html'">Learn More About Matcha</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/sunconure.jpg" alt="sunconure">
+            <h4>Rainbow</h4>
+            <p>Sun Conure | 2 year | Female</p>
+            <p class="petinfo">Rainbow is a playful and talkative parrot who loves attention. She enjoys being around people and will greet you with her charming chatter every morning</p>
+            <button onclick="location.href='rainbow.html'">Learn More About Rainbow</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/scottishfold.jpg" alt="scottishfold">
+            <h4>Typhoon</h4>
+            <p>Scottish Fold | 2 year | Male</p>
+            <p class="petinfo">Typhoon is calm, loving, and full of grace. He enjoys gentle pets, warm blankets, and being close to people he trusts</p>
+            <button onclick="location.href='typhoon.html'">Learn More About Typhoon</button>
+        </div>
+        <div class="pet-card">
+            <img src="Img/pomeranian.jpg" alt="pomeranian">
+            <h4>Singto</h4>
+            <p>Pomeranian | 1 year | Male</p>
+            <p class="petinfo">Singto is playful, curious, and full of joy. He loves everyone he meets and will greet you with endless kisses and a happy heart</p>
+            <button onclick="location.href='singto.html'">Learn More About Singto</button>
+        </div>
+     </section>
+     <!-- Contact Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Us</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>E-mail to be contacted</label>
+                            <input type="email" placeholder="Please provide your E-mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Topic of inquiry</label>
+                            <input type="text" placeholder="Please provide the subject" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Message details</label>
+                            <textarea rows="10" cols="30" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    <button class="btn btn-outline-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+    <footer>
+        <div class="footer-content">
+            <div class="about">
+                <h3>Pet & Adoption</h3>
+                <p>
+                    Dedicated to finding loving homes for rescued little paws.<br>Every pet deserves a second chance at happiness.
+                </p>
+            </div>
+            <div class="links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="FindPets.html">Search Pet</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#myModal">Contact</a></li>
+                    <li><a href="DonatePA.html">Donate</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h4>Contact Info</h4>
+                <p>0800000000</p>
+                <p>contact@petadoption</p>
+                <p>123 street, Little paws City</p>
+            </div>
+        </div>
+        <div class="container">
+                <p>Copyright &copy; Pet Adoption</p>
+        </div>
+    </footer>
+    </body>
+</html>
